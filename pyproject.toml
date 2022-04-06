@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "RPi_PCA9685"
+dependencies = ["smbus >=1.1.post2"]
+authors = [{name = "TBD", email = "TBD@example.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[tool.flit.module]
+name = "RPiPCA9685"
